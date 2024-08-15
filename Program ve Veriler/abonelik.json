@@ -1,0 +1,369 @@
+{
+   "kullanicilar": [
+      {
+         "id": 1,
+         "ad": "Alice Smith",
+         "yas": 26,
+         "eposta": "alice@example.com",
+         "tel": "+90 532 123 45 67",
+         "adres": {
+            "sokak": "123 Maple St",
+            "sehir": "Wonderland",
+            "posta_kodu": "12345"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Netflix",
+               "durum": "aktif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 10,
+               "taahhut_suresi": 12
+            },
+            {
+               "hizmet": "Spotify",
+               "durum": "aktif",
+               "aylik_ucret": 7.99,
+               "sure_ay": 3,
+               "taahhut_suresi": 6
+            }
+         ]
+      },
+      {
+         "id": 2,
+         "ad": "Bob Johnson",
+         "yas": 42,
+         "eposta": "bob@example.com",
+         "tel": "+90 533 234 56 78",
+         "adres": {
+            "sokak": "456 Oak St",
+            "sehir": "Dreamland",
+            "posta_kodu": "54321"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Netflix",
+               "durum": "pasif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 2,
+               "taahhut_suresi": 3,
+               "pasif_nedeni": "Kullanim eksikligi"
+            },
+            {
+               "hizmet": "Amazon Prime",
+               "durum": "aktif",
+               "aylik_ucret": 12.99,
+               "sure_ay": 6,
+               "taahhut_suresi": 12
+            }
+         ]
+      },
+      {
+         "id": 3,
+         "ad": "Carol Davis",
+         "yas": 57,
+         "eposta": "carol@example.com",
+         "tel": "+90 534 345 67 89",
+         "adres": {
+            "sokak": "789 Pine St",
+            "sehir": "Fantasyland",
+            "posta_kodu": "67890"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "HBO Max",
+               "durum": "pasif",
+               "aylik_ucret": 14.99,
+               "sure_ay": 5,
+               "taahhut_suresi": 6,
+               "pasif_nedeni": "Yuksek fiyat"
+            },
+            {
+               "hizmet": "Hulu",
+               "durum": "aktif",
+               "aylik_ucret": 5.99,
+               "sure_ay": 1,
+               "taahhut_suresi": 3
+            }
+         ]
+      },
+      {
+         "id": 4,
+         "ad": "Dave Miller",
+         "yas": 23,
+         "eposta": "dave@example.com",
+         "tel": "+90 535 456 78 90",
+         "adres": {
+            "sokak": "321 Birch St",
+            "sehir": "Mysteryland",
+            "posta_kodu": "98765"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Disney Plus",
+               "durum": "pasif",
+               "aylik_ucret": 6.99,
+               "sure_ay": 8,
+               "taahhut_suresi": 12,
+               "pasif_nedeni": "Icerik ilgisizligi"
+            },
+            {
+               "hizmet": "Netflix",
+               "durum": "aktif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 4,
+               "taahhut_suresi": 6
+            }
+         ]
+      },
+      {
+         "id": 5,
+         "ad": "Eve Brown",
+         "yas": 20,
+         "eposta": "eve@example.com",
+         "tel": "+90 536 567 89 01",
+         "adres": {
+            "sokak": "654 Cedar St",
+            "sehir": "Adventureland",
+            "posta_kodu": "65432"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Youtube Premium",
+               "durum": "aktif",
+               "aylik_ucret": 11.99,
+               "sure_ay": 12,
+               "taahhut_suresi": 12
+            },
+            {
+               "hizmet": "Spotify",
+               "durum": "aktif",
+               "aylik_ucret": 7.99,
+               "sure_ay": 2,
+               "taahhut_suresi": 3
+            },
+            {
+               "hizmet": "Apple Music",
+               "durum": "aktif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 5,
+               "taahhut_suresi": 6
+            }
+         ]
+      },
+      {
+         "id": 6,
+         "ad": "Frank Wilson",
+         "yas": 35,
+         "eposta": "frank@example.com",
+         "tel": "+90 537 678 90 12",
+         "adres": {
+            "sokak": "987 Willow St",
+            "sehir": "Explorationland",
+            "posta_kodu": "19283"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Hulu",
+               "durum": "pasif",
+               "aylik_ucret": 5.99,
+               "sure_ay": 10,
+               "taahhut_suresi": 12,
+               "pasif_nedeni": "Baska bir uygulama kullanimi"
+            },
+            {
+               "hizmet": "Disney Plus",
+               "durum": "aktif",
+               "aylik_ucret": 6.99,
+               "sure_ay": 11,
+               "taahhut_suresi": 12
+            },
+            {
+               "hizmet": "Amazon Prime",
+               "durum": "aktif",
+               "aylik_ucret": 12.99,
+               "sure_ay": 1,
+               "taahhut_suresi": 3
+            }
+         ]
+      },
+      {
+         "id": 7,
+         "ad": "Grace Taylor",
+         "yas": 28,
+         "eposta": "grace@example.com",
+         "tel": "+90 538 789 01 23",
+         "adres": {
+            "sokak": "456 Spruce St",
+            "sehir": "Storyland",
+            "posta_kodu": "76543"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Netflix",
+               "durum": "pasif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 4,
+               "taahhut_suresi": 6,
+               "pasif_nedeni": "Yuksek fiyat"
+            },
+            {
+               "hizmet": "Apple Tv Plus",
+               "durum": "pasif",
+               "aylik_ucret": 4.99,
+               "sure_ay": 2,
+               "taahhut_suresi": 3,
+               "pasif_nedeni": "Kullanim eksikligi"
+            }
+         ]
+      },
+      {
+         "id": 8,
+         "ad": "Henry Anderson",
+         "yas": 33,
+         "eposta": "henry@example.com",
+         "tel": "+90 539 890 12 34",
+         "adres": {
+            "sokak": "123 Elm St",
+            "sehir": "Journeyland",
+            "posta_kodu": "11223"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Netflix",
+               "durum": "pasif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 12,
+               "taahhut_suresi": 12,
+               "pasif_nedeni": "Kullanim eksikligi"
+            },
+            {
+               "hizmet": "HBO Max",
+               "durum": "pasif",
+               "aylik_ucret": 14.99,
+               "sure_ay": 3,
+               "taahhut_suresi": 6,
+               "pasif_nedeni": "Yuksek fiyat"
+            },
+            {
+               "hizmet": "Disney Plus",
+               "durum": "aktif",
+               "aylik_ucret": 6.99,
+               "sure_ay": 6,
+               "taahhut_suresi": 12
+            }
+         ]
+      },
+      {
+         "id": 9,
+         "ad": "John Doe",
+         "yas": 48,
+         "eposta": "john@example.com",
+         "tel": "+90 540 123 45 67",
+         "adres": {
+            "sokak": "789 Birch St",
+            "sehir": "Dreamland",
+            "posta_kodu": "67890"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Netflix",
+               "durum": "pasif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 2,
+               "taahhut_suresi": 3,
+               "pasif_nedeni": "Kullanim eksikligi"
+            }
+         ]
+      },
+      {
+         "id": 10,
+         "ad": "Olivia Martin",
+         "yas": 31,
+         "eposta": "olivia@example.com",
+         "tel": "+90 542 345 67 89",
+         "adres": {
+            "sokak": "789 Walnut St",
+            "sehir": "Newland",
+            "posta_kodu": "45678"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Netflix",
+               "durum": "aktif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 8,
+               "taahhut_suresi": 12
+            },
+            {
+               "hizmet": "Disney Plus",
+               "durum": "pasif",
+               "aylik_ucret": 6.99,
+               "sure_ay": 5,
+               "taahhut_suresi": 12,
+               "pasif_nedeni": "Icerik ilgisizligi"
+            }
+         ]
+      },
+      {
+         "id": 11,
+         "ad": "Liam White",
+         "yas": 29,
+         "eposta": "liam@example.com",
+         "tel": "+90 543 456 78 90",
+         "adres": {
+            "sokak": "123 Cherry St",
+            "sehir": "Oldtown",
+            "posta_kodu": "23456"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Apple Music",
+               "durum": "pasif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 6,
+               "taahhut_suresi": 12,
+               "pasif_nedeni": "Baska bir uygulama kullanimi"
+            },
+            {
+               "hizmet": "Netflix",
+               "durum": "aktif",
+               "aylik_ucret": 9.99,
+               "sure_ay": 9,
+               "taahhut_suresi": 12
+            }
+         ]
+      },
+      {
+         "id": 12,
+         "ad": "Sophie Green",
+         "yas": 38,
+         "eposta": "sophie@example.com",
+         "tel": "+90 544 567 89 01",
+         "adres": {
+            "sokak": "456 Linden St",
+            "sehir": "Brightland",
+            "posta_kodu": "34567"
+         },
+         "abonelikler": [
+            {
+               "hizmet": "Youtube Premium",
+               "durum": "aktif",
+               "aylik_ucret": 11.99,
+               "sure_ay": 7,
+               "taahhut_suresi": 12
+            },
+            {
+               "hizmet": "Spotify",
+               "durum": "aktif",
+               "aylik_ucret": 7.99,
+               "sure_ay": 3,
+               "taahhut_suresi": 6
+            }
+         ]
+      }
+   ],
+   "meta": {
+      "kaynak": "kullanici_veritabani",
+      "son_guncellenme": "2023-08-05T12:00:00Z"
+   }
+}
